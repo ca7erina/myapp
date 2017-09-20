@@ -5,3 +5,4 @@ mvn clean package
 mvn dockerfile:build
 mvn dockerfile:push
 ```
+java -cp /usr/share/myapp/myapp-0.0.1-SNAPSHOT.jar myapp.Printer
